@@ -1,5 +1,5 @@
- /* font-family: "Raleway", sans-serif; 
-  font-family: "Roboto", sans-serif;*/
+/* font-family: "Raleway", sans-serif; 
+     font-family: "Roboto", sans-serif;*/
 
  body {
 font-family: "Roboto", sans-serif;
@@ -34,6 +34,12 @@ margin-right: 76px;
  .footer-logo .logo-part {
       color: #f4f4fd;
  }
+ .page-footer {
+    background-color: #2e2f42;
+ }
+ .text-footer {
+ color: #f4f4fd;
+ }
     
  .nav-link {
    font-weight: 500;
@@ -61,6 +67,26 @@ margin-right: 76px;
  .nav-link:focus{
     color: #404bbf;
  }
- .page-footer {
+ .page-hero {
    background-color: #2e2f42;
  }
+ .text-hero {
+   font-weight: 700;
+      color: #fff;
+ }
+ .button-color {
+   color: #fff;
+   background-color: #4d5ae5;
+   border: none;
+}
+ .our-team {
+   background-color:#f4f4fd;
+ }
+ .our-team-text,
+ .name,
+ .profession
+ {
+   text-align: center;
+ }
+ 
+ 
