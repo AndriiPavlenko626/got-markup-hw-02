@@ -1,92 +1,182 @@
 /* font-family: "Raleway", sans-serif; 
      font-family: "Roboto", sans-serif;*/
 
- body {
-font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
- }
-
- ul,ol {
-    list-style-type:none ;
- }
-
- a {
-    text-decoration: none;
- } 
- .logo {
-   font-weight: 700;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
- }
- .header-logo {
-margin-right: 76px;
- }
- .header-logo .logo-part {
-   color: #2e2f42;
- }
- .footer-logo {
-   margin-bottom: 16px;
- }
- .footer-logo .logo-part {
-      color: #f4f4fd;
- }
- .page-footer {
-    background-color: #2e2f42;
- }
- .text-footer {
- color: #f4f4fd;
- }
-    
- .nav-link {
-   font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #2e2f42;
- }
- .nav-link:hover,
- .nav-link:focus {
-   color: #404bbf;
- }
- .contacts {
-   font-style:normal
- }
- .contacts-link {
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #434455;
- }
- .contacts-link:hover,
- .contacts-link:focus 
- .nav-link:hover,
- .nav-link:focus{
-    color: #404bbf;
- }
- .page-hero {
-   background-color: #2e2f42;
- }
- .text-hero {
-   font-weight: 700;
-      color: #fff;
- }
- .button-color {
-   color: #fff;
-   background-color: #4d5ae5;
-   border: none;
+body {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #fff;
 }
- .our-team {
-   background-color:#f4f4fd;
- }
- .our-team-text,
- .name,
- .profession
- {
+
+ul,
+ol {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.logo {
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+}
+
+.header-logo {
+   margin-right: 76px;
+}
+
+.header-logo .logo-part {
+   color: #2e2f42;
+}
+
+.footer-logo {
+   font-family: "Raleway", sans-serif;
+   margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+   color: #f4f4fd;
+}
+
+.page-footer {
+   background-color: #2e2f42;
+}
+
+.text-footer {
+   color: #f4f4fd;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+
+.nav-link {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+   color: #404bbf;
+}
+
+.contacts {
+   font-style: normal
+}
+
+.contacts-link {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus .nav-link:hover,
+.nav-link:focus {
+   color: #404bbf;
+}
+
+.page-hero {
+   background-color: #2e2f42;
+}
+
+.text-hero {
+   font-weight: 700;
+   color: #fff;
+   font-size: 56px;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
    text-align: center;
- }
- 
- 
+
+}
+
+.button-color:hover,
+.button-color:focus .button-color:hover,
+.button-color:focus {
+   color: #404BBF;
+   cursor: pointer;
+}
+
+.advantages-header {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.advantages-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.button-color {
+   color: #fff;
+   background-color: #404BBF;
+   border: none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+}
+
+.our-team {
+   background-color: #FFFFFF
+}
+
+.our-team-text,
+.name,
+.profession {
+   text-align: center;
+}
+
+.name {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.profession {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.portfolio {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #2e2f42;
+}
+
+.header-portfolio {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.text-portfolio {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
