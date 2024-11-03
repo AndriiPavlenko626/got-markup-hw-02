@@ -88,14 +88,14 @@ a {
    line-height: 1.07;
    letter-spacing: 0.02em;
    text-align: center;
-   background-color: #4D5AE5
 }
-
 .button-color:hover,
 .button-color:focus .button-color:hover,
 .button-color:focus {
-   color: #404BBF;
    cursor: pointer;
+}
+.button-color {
+   background-color: #4D5AE5;
 }
 
 .advantages-header {
