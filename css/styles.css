@@ -90,8 +90,8 @@ a {
    text-align: center;
 }
 .button-color:hover,
-.button-color:focus .button-color:hover,
-.button-color:focus {
+.button-color:focus
+{
    cursor: pointer;
 }
 .button-color {
