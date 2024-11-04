@@ -89,14 +89,16 @@ a {
    letter-spacing: 0.02em;
    text-align: center;
 }
-.button-color:hover,
-.button-color:focus
-{
-   background-color: #4D5AE5;
-   cursor: pointer;
-}
 .button-color {
-background-color: #4D5AE5;
+   background-color: #4D5AE5
+}
+.button-color:hover {
+background-color: #404BBF;
+cursor: pointer;
+}
+.button-color:focus {
+background-color: #404BBF;
+cursor: pointer;
 }
 
 .advantages-header {
