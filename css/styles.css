@@ -17,7 +17,7 @@ a {
 }
 
 .logo {
-   font-family: "Raleway";
+   font-family: "Raleway",sans-serif;
    font-weight: 700;
    font-size: 18px;
    line-height: 1.17;
@@ -174,7 +174,7 @@ a {
 }
 
 .header-portfolio {
-   background-color: #4D5AE5
+   background-color: #4D5AE5;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
