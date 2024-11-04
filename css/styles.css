@@ -92,10 +92,11 @@ a {
 .button-color:hover,
 .button-color:focus
 {
+   background-color: #4D5AE5;
    cursor: pointer;
 }
 .button-color {
-   background-color: #4D5AE5;
+background-color: #4D5AE5;
 }
 
 .advantages-header {
@@ -174,7 +175,7 @@ a {
 }
 
 .header-portfolio {
-   background-color: #4D5AE5;
+   color: #2e2f42;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
