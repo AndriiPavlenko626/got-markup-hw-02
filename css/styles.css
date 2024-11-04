@@ -63,6 +63,9 @@ a {
 .nav-link:hover {
    color: #404bbf
 }
+.nav-link:focus {
+   color: #404bbf
+}
 .nav-link {
    color: #2e2f42;
 }
@@ -126,7 +129,7 @@ cursor: pointer;
 
 .button-color {
    color: #fff;
-   background-color: #404BBF;
+   background-color:#4D5AE5;
    border: none;
    font-weight: 500;
    font-size: 16px;
