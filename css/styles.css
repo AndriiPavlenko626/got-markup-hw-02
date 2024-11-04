@@ -16,7 +16,7 @@ a {
    text-decoration: none;
 }
 
-.logo {
+.logo header-logo {
    font-family: "Raleway";
    font-weight: 700;
    font-size: 18px;
@@ -178,7 +178,7 @@ a {
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-   color: #2e2f42;
+   background-color: #404BBF;
 }
 
 .text-portfolio {
