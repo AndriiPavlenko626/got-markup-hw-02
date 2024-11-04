@@ -16,7 +16,7 @@ a {
    text-decoration: none;
 }
 
-.logo header-logo {
+.logo {
    font-family: "Raleway";
    font-weight: 700;
    font-size: 18px;
@@ -136,7 +136,7 @@ a {
    text-transform: capitalize;
    color: #2e2f42
 }
-.team-list{
+.team-img{
    background-color:#FFFFFF;
 }
 
@@ -174,11 +174,11 @@ a {
 }
 
 .header-portfolio {
+   background-color: #4D5AE5
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-   background-color: #404BBF;
 }
 
 .text-portfolio {
